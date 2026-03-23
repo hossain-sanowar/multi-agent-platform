@@ -5,6 +5,34 @@ A production-oriented multi-agent orchestration platform for LLM workflows built
 ## Overview
 This project demonstrates how to build and deploy a multi-agent system for LLM applications using graph-based orchestration, tool calling, and memory-aware workflows.
 
+## Folder Structure
+
+```bash
+multi-agent-platform/
+├── README.md
+├── requirements.txt
+├── Dockerfile
+├── .gitignore
+├── src/
+│   ├── main.py
+│   ├── agents/
+│   │   ├── planner.py
+│   │   ├── researcher.py
+│   │   └── executor.py
+│   ├── tools/
+│   │   ├── search_tool.py
+│   │   └── calculator_tool.py
+│   ├── workflows/
+│   │   └── graph.py
+│   └── utils/
+│       └── config.py
+├── tests/
+│   └── test_workflow.py
+├── docs/
+│   └── architecture.png
+└── jenkins/
+    └── Jenkinsfile
+```
 ## Features
 - Multi-agent orchestration with LangGraph
 - Tool calling and workflow routing
