@@ -1,9 +1,9 @@
-langchain
+langchain-groq
 langchain-community
-langchain_groq
-chromadb
-streamlit
-pandas
 python-dotenv
-sentence-transformers
-langchain_huggingface
+uvicorn
+fastapi
+pydantic
+streamlit
+langgraph
+langchain-core
